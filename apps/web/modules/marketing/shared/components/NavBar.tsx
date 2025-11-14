@@ -56,6 +56,10 @@ export function NavBar() {
 		href: string;
 	}[] = [
 		{
+			label: "MCP Registry",
+			href: "/mcp",
+		},
+		{
 			label: t("common.menu.pricing"),
 			href: "/#pricing",
 		},
